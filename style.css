@@ -1,0 +1,52 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 3px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("cover.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: honeydew;
+  font-size: 6vw;
+}
+
+.para {
+  font-size: 4vw;
+}
+
+a {
+  color: gold;
+}
+
+.small-form {
+  font-size: 14px;
+}
+
+input[type="text"] {
+  background-color: rgba(229, 225, 204, 0.4);
+  color: black;
+  font-weight: bold;
+  width: 25vw;
+  height: 20px;
+}
+
+textarea {
+  background-color: rgba(229, 225, 204, 0.4);
+  color: black;
+  font-weight: bold;
+  width: 25vw;
+}
